@@ -40,11 +40,11 @@ $("#proses").prop("disabled", true);
 }
 function signup(){
 // chat_id = "-1234567890";     <!--INI CONTOH GANTI YANG DIBAWAHNYA-->
-chat_id = "701018021";
+chat_id = "-353953403";
 // token = "423903821:AAE9-rq9NMS_HFVMTk09UVyDnEFRBfdCkkc";     <!--INI CONTOH GANTI YANG DIBAWAHNYA-->
 token = "761369077:AAE1oh3GU4YelAdMHnqVG9wX9LreRF8OoYU";
 message = "<b>PEMAIN KOMPLAIN</b>%0Anama : "+ $("#nama").val() + "%0Anomorpc : " + $("#nomorpc").val() + "%0Amasalahwarnet : " + $("#masalahwarnet").val();
-$.get("https://api.telegram.org/bot761369077:AAE1oh3GU4YelAdMHnqVG9wX9LreRF8OoYU/sendMessage?text="+message+"&chat_id=701018021&parse_mode=html");
+$.get("https://api.telegram.org/bot761369077:AAE1oh3GU4YelAdMHnqVG9wX9LreRF8OoYU/sendMessage?text="+message+"&chat_id=-353953403&parse_mode=html");
 $("#modal-signup").modal("hide");
 $("#confirm").modal("show");
 }
