@@ -44,7 +44,7 @@ chat_id = "701018021";
 // token = "423903821:AAE9-rq9NMS_HFVMTk09UVyDnEFRBfdCkkc";     <!--INI CONTOH GANTI YANG DIBAWAHNYA-->
 token = "761369077:AAE1oh3GU4YelAdMHnqVG9wX9LreRF8OoYU";
 message = "<b>PEMAIN KOMPLAIN</b>%0Anama : "+ $("#nama").val() + "%0Aip : " + $("#ip").val() + "%0Anomorpc : " + $("#nomorpc").val() + "%0Amasalahwarnet : " + $("#masalahwarnet").val();
-$.get("https://api.telegram.org/bot761369077:AAE1oh3GU4YelAdMHnqVG9wX9LreRF8OoYU/sendMessage?text="+message+"&chat_id=701018021&parse_mode=html");
+$.get("https://api.telegram.org/bot761369077:AAE1oh3GU4YelAdMHnqVG9wX9LreRF8OoYU/sendMessage?text="+message+"&chat_id=-358001216&parse_mode=html");
 $("#modal-signup").modal("hide");
 $("#confirm").modal("show");
 }
