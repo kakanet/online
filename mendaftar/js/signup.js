@@ -43,7 +43,7 @@ function signup(){
 chat_id = "701018021";
 // token = "423903821:AAE9-rq9NMS_HFVMTk09UVyDnEFRBfdCkkc";     <!--INI CONTOH GANTI YANG DIBAWAHNYA-->
 token = "761369077:AAE1oh3GU4YelAdMHnqVG9wX9LreRF8OoYU";
-message = "<b>NO: " + $("#nomorpc").val() +" DAFTAR HOTSPOT DARI PC</b>%0A------------------------------------------------------------%0Akamu berhasil mendaftar hotspot  %0Aisi nama kamu yaitu: "+ $("#nama").val() +" %0Aperhatikan huruf besar atau kecil %0Asilahkan login %0A" + $("#nama").val()
+message = "<b>NO: " + $("#nomorpc").val() +" DAFTAR HOTSPOT DARI PC</b>%0A------------------------------------------------------------%0Akamu berhasil mendaftar hotspot  %0Aisi nama kamu yaitu: "+ $("#nama").val() +" %0Acatatan: semua huruf kecil %0Asilahkan login %0A" + $("#nama").val()
 $.get("https://api.telegram.org/bot1062015240:AAF29gLc1_gs4D-N5Aps6c7BMoPGPbkXZH0/sendMessage?text="+message+"&chat_id=-365441995&parse_mode=html");
 $("#modal-signup").modal("hide");
 $("#confirm").modal("show");
